@@ -1,0 +1,26 @@
+body {
+  background: #ecf8f8;
+  font-family: "Roboto", sans-serif;
+}
+
+.time {
+  justify-content: center;
+  display: flex;
+  margin-top: 35vh;
+}
+
+.time_section {
+  padding: 0 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.time_number-display {
+  font-size: 12rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.time_label {
+  font-size: 0.75rem;
+}
