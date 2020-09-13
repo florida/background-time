@@ -14,7 +14,6 @@ const displayTime = () => {
   hours.innerHTML = formatDisplay(displayHours);
   minutes.innerHTML = formatDisplay(displayMinutes);
   seconds.innerHTML = formatDisplay(displaySeconds);
-  console.log(displaySeconds);
 };
 
 const changeBackground = (seconds) => {
