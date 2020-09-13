@@ -11,20 +11,26 @@ body {
 }
 
 .time_section {
-  padding: 0 2rem;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
 
-@media screen and (min-width: 751px) {
+@media screen and (min-width: 861px) {
+  .time_section {
+    padding: 0 2rem;
+  }
+
   .time_number-display {
     font-size: 12rem;
     font-variant-numeric: tabular-nums;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 860px) {
+  .time_section {
+    padding: 0 0.5rem;
+  }
   .time_number-display {
     font-size: 6rem;
     font-variant-numeric: tabular-nums;
